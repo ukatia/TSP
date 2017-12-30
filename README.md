@@ -15,6 +15,7 @@ TSP/
 ``` Point.h ``` - 2-dimensional point class declaration  <br/>
 ``` Point.cpp ``` - 2-dimensional point class implementation <br/>
 ``` Point3D.h ``` -  3-dimensional point class declaration - derived from Point class <br/>
+``` Point3D.cpp ``` -  3-dimensional point class implementation <br/>
 ``` TSP.cpp ``` -  main function is defined here<br/>
 The following functions are defined here: <br/>
 ``` 
@@ -36,7 +37,7 @@ This function takes three points by reference and returns the area within the tr
 ``` 
 auto print = [](const int& n) { std::cout << " " << n; };
 ``` 
-**for_each**
+**for_each** - iterate over vector
 ``` 
 std::for_each(order.begin(), order.end(), print);
 ``` 
@@ -48,7 +49,7 @@ template<class T> double computeArea(T &p1, T &p2, T &p3);
 ``` 
 vector<int> order;
 ``` 
-**std::next_permutation** 
+**std::next_permutation**  - find the next possible lexicographically permutation of elements
 ``` 
 std::next_permutation(order.begin(), order.end())
 ``` 
