@@ -78,7 +78,7 @@ Shortest Path is [ 0 2 1 ]
 Area is : 11.79
 ``` 
 ``` 
-How many points? 3
+How many points? 5
 Point1:
 x: 2
 y: 4
